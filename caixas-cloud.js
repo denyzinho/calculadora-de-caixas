@@ -5,7 +5,7 @@
  const draftFields=[...dims,'box-name','box-products','box-status','box-notes'];
  const draftKey='mar-de-madeira-caixas-draft-v1';
  const cacheKey='mar-de-madeira-caixas-cloud-cache-v1';
- const loginEmail='denyzinho+caixas@gmail.com';
+ const loginEmail='denyzinho@gmail.com';
  let records=[],allRows=[],editing=null,editRevision=null,busy=false,ready=false,editor=false,client,refreshing=false;
  const message=t=>$('bank-message').textContent=t;
  const fold=t=>t.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
